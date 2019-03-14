@@ -10,7 +10,7 @@ public class SuperCharger extends CarOptions  {
 
     @Override
     public String GetDescription(){
-        return baseCar.GetDescription() + addSuperCharger;
+        return super.GetDescription() + addSuperCharger;
     }
    
    private String addSuperCharger(){
