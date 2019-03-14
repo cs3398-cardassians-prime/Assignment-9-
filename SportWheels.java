@@ -12,7 +12,7 @@ public class SportWheels extends CarOptions  {
         return super.GetDescription() + addSportWheels();
     }
   	
-    private string addSportWheels(){
+    private String addSportWheels(){
         return " with some super cool sport wheels.";
     }
 }
