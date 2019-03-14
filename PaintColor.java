@@ -3,7 +3,7 @@
 package cardec;
 
 public class PaintColor extends CarOptions {
-	public String Color ;
+	public String color ;
 
 	public PaintColor(ICar car) {
 		super(car);
