@@ -2,7 +2,7 @@
 package cardec;
 
 public class PaintColor extends CarOptions {
-	public String Color;
+	public String Color = "black";
 
 	public PaintColor(ICar car) {
 		super(car);
@@ -13,12 +13,10 @@ public class PaintColor extends CarOptions {
 	
 	 @Override
     public String GetDescription(){
-        return baseCar.GetDescription() + addPaintColor;
+        return super.GetDescription() + addPaintColor;
     }
 	
 	private String addPaintColor(){
         return "My new" + color + " color makes my car the slickest around.";
    }
 }
-
-
