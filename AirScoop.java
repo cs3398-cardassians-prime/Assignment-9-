@@ -4,8 +4,8 @@ package cardec;
 public class AirScoop extends CarOptions  {
 
 	
-    public AirScoop(BasicCar baseCar){
-       super(baseCar);
+    public AirScoop(ICar car){
+       super(car);
 	}
 
     @Override
