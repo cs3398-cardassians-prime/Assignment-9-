@@ -9,6 +9,11 @@ public class StripeColor extends CarOptions
 		//System.out.print("  StripeColor Constructor\n");
 		this.color = col;
 	}
+	public StripeColor(ICar c) {
+		super(c);
+		//System.out.print("  StripeColor Constructor\n");
+		this.color = "default blue";
+	}
 
 	@Override
 	public String GetDescription(){
