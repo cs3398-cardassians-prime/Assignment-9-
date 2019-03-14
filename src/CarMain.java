@@ -1,15 +1,4 @@
-//       Johnathan Bringmann   jab 479
 //       Team:  Cardassians
-//
-//
-// i.	   Single Responsibility Principle?
-// ii.	Open Close Principle?
-// iii.	Liskov Substitution Principle?
-// iv.	Interface Segregation Principle?
-// v.	   Dependency Inversion Principle?
-//
-//
-//
 //
 //
 
