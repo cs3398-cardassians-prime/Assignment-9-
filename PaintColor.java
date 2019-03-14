@@ -23,7 +23,7 @@ public class PaintColor extends CarOptions {
     }
 	
 	private String addPaintColor(){
-        return "My new " + color + " car make me the slickest perosn around.";
+        return "My new " + color + " car make me the slickest person around.";
    }
 }
 
