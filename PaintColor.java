@@ -2,7 +2,7 @@
 
 package cardec;
 
-public class PaintColor extends CarOptions {
+public class PaintColor extends ICar {
 	public String Color = "black";
 
 	public PaintColor(ICar car) {
