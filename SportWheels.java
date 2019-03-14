@@ -9,7 +9,7 @@ public class SportWheels extends CarOptions  {
 
     @Override
     public String GetDescription(){
-        return super.GetDescription() + addSportWheels;
+        return super.GetDescription() + addSportWheels();
     }
   	
     private string addSportWheels(){
