@@ -6,7 +6,7 @@ public class SportWheels extends CarOptions  {
 	
     public SportWheels(ICar car){
         super(car);
-        System.out.print(" SportWheels Constructor\n");
+        //System.out.print(" SportWheels Constructor\n");
     }
 
     @Override
