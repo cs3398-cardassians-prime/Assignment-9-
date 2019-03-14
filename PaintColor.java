@@ -2,17 +2,23 @@
 package cardec;
 
 public class PaintColor extends CarOptions {
+	public String Color;
 
-	public PaintColor(ICar c) {
-		super(c);
+	public PaintColor(ICar car) {
+		super(car);
 		System.out.print("  PaintColor Constructor\n");
-		this.color = pColor;
+		Color = color;
 	}
 	
-	@Override
-	public void GetDescription(){
-		super.GetDescription();
-		System.out.print(" \n  The Cars color is "+ color+ ". " );
-		System.out.print("My new " + color + " makes my car the slickest around.");	}
+	
+	 @Override
+    public String GetDescription(){
+        return baseCar.GetDescription() + addPaintColor;
+    }
+	
+	private String addPaintColor(){
+        return "My new" + color + " color makes my car the slickest around.";
+   }
 }
+
 
