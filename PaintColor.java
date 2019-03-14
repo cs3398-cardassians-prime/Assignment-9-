@@ -3,14 +3,19 @@
 package cardec;
 
 public class PaintColor extends CarOptions {
-	public String Color = " black";
+	public String Color ;
 
 	public PaintColor(ICar car) {
 		super(car);
 		System.out.print("  PaintColor Constructor\n");
-		Color = color;
+		this.color = "black";
 	}
 	
+	public PaintColor(ICar c, String col) {
+		super(c);
+		//System.out.print("  PaintColor Constructor\n");
+		this.color = col;
+	}
 	
 	 @Override
     public String GetDescription(){
@@ -18,6 +23,7 @@ public class PaintColor extends CarOptions {
     }
 	
 	private String addPaintColor(){
-        return "My new" + color + " color makes my car the slickest around.";
+        return "My new " + color + " car make me the slickest perosn around.";
    }
 }
+
