@@ -12,7 +12,7 @@ public class PaintColor extends CarOptions {
 	}
 	
 	public PaintColor(ICar c, String col) {
-		super(c);
+		super(car);
 		//System.out.print("  PaintColor Constructor\n");
 		this.color = col;
 	}
@@ -23,7 +23,7 @@ public class PaintColor extends CarOptions {
     }
 	
 	private String addPaintColor(){
-        return "My new " + color + " car make me the slickest perosn around.";
+        return "My new " + color + " car make me the slickest person around.";
    }
 }
 
