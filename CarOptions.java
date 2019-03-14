@@ -1,5 +1,5 @@
 
-package carcraft;
+package cardec;
 
 public abstract class CarOptions implements ICar {
 	private ICar car;
