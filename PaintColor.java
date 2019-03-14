@@ -19,11 +19,8 @@ public class PaintColor extends CarOptions {
 	
 	 @Override
     public String GetDescription(){
-        return super.GetDescription() + addPaintColor;
+        return super.GetDescription + "My new " + color + " car make me the slickest person around.";
     }
 	
-	private String addPaintColor(){
-        return "My new " + color + " car make me the slickest person around.";
-   }
 }
 
