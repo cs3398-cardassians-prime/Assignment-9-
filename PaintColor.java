@@ -12,7 +12,7 @@ public class PaintColor extends CarOptions {
 	}
 	
 	public PaintColor(ICar c, String col) {
-		super(c);
+		super(car);
 		//System.out.print("  PaintColor Constructor\n");
 		this.color = col;
 	}
