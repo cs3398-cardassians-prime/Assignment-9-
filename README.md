@@ -2,8 +2,8 @@
 repo for assignment 9
 
 Who did what:
- * Ralph Kelley:
- * Isaac van Til:
+ * Ralph Kelley: Paint Color
+ * Isaac van Til: Sport Wheels
  * Brian Chase: Car Option
- * John Bringmann:
+ * John Bringmann: SuperCharger
  * Fred Hanson: Stripe Color
