@@ -2,7 +2,11 @@
 package cardec;
 
 public abstract class CarOptions implements ICar {
-	private ICar car;
+	protected ICar car;
+	
+	public CarOptions(ICar car){
+		this.car = car;
+	}
 	
 	@Override
 	public String GetDescription() {
